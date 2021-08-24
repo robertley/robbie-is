@@ -1,0 +1,44 @@
+
+h2 {
+    letter-spacing: .025em;
+    display: flex;
+    align-items: center;
+    height: 2em;
+
+
+    // color: #fff;
+}
+
+
+@mixin animationDelay {
+    @for $i from 1 through 14 {
+      &:nth-child(#{$i}) {
+        animation-delay: #{$i * .05}s;
+      }
+    }
+}
+
+h2:hover {
+    span {
+        animation-name: bobble;
+        animation-duration: .5s;
+        animation-iteration-count: infinite;
+        // animation-timing-function: linear;
+        animation-timing-function: ease-in-out;
+        // animation-timing-function: cubic-bezier(.36,.67,.76,.5);
+        // transform: translateY(-.5em);
+        margin-top: 0;
+        cursor: pointer;
+        @include animationDelay();
+
+    }
+}
+
+
+
+@keyframes bobble {
+    // 0%   {margin-top: 0}
+    0%  {transform: translateY(0em)}
+    50%  {transform: translateY(-1em)}
+    100% {transform: translateY(0em)}
+}

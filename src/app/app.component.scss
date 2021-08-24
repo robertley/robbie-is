@@ -1,0 +1,248 @@
+
+
+h1 {
+    margin-bottom: .5em;
+    cursor: pointer;
+    span {
+        margin-right: 1em;
+    }
+
+    // font-weight: bold;
+
+    animation-name: h1Shadow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    // animation-timing-function: step-end; 
+
+    // text-shadow: -4px 4px #ef3550,
+    // -8px 8px #f48fb1,
+    // -12px 12px #7e57c2,
+    // -16px 16px #2196f3,
+    // -20px 20px #26c6da,
+    // -24px 24px #43a047,
+    // -28px 28px #eeff41,
+    // -32px 32px #f9a825,
+    // -36px 36px #ff5722;
+
+    // text-shadow: 
+    // -8px 8px #f48fb1,
+    // -12px 12px #7e57c2,
+    // -16px 16px #2196f3,
+    // -20px 20px #26c6da,
+    // -24px 24px #43a047,
+    // -28px 28px #eeff41,
+    // -32px 32px #f9a825,
+    // -36px 36px #ff5722;
+
+    text-shadow: 
+    // -4px 4px #ef3550,
+    -8px 8px #f48fb1,
+    // -12px 12px #7e57c2,
+    // -16px 16px #2196f3,
+    // -20px 20px #26c6da,
+    // -24px 24px #43a047,
+    -28px 28px #eeff41,
+    // -32px 32px #f9a825,
+    // -36px 36px #ff5722;
+    
+}
+
+@mixin textShadow {
+    @for $i from 1 through 100 {
+        @if $i % 2 == 0 {
+            text-shadow: #{i * 2}px #{i * -2}px white;
+        }
+        @else {
+            text-shadow: #{i * 2}px #{i * -2}px black;
+        }
+    }
+}
+
+@keyframes h1Shadow3 {
+    0% {
+        text-shadow: 
+        -4px 4px #ef3550,
+        -8px 8px white,
+        -12px 12px #7e57c2,
+        -16px 16px white,
+        -20px 20px #26c6da,
+        -24px 24px white,
+        -28px 28px #eeff41,
+        -32px 32px white,
+        -36px 36px #ff5722;
+    }
+    50% {
+        text-shadow: 
+        -4px 4px white,
+        -8px 8px #f48fb1,
+        -12px 12px white,
+        -16px 16px #2196f3,
+        -20px 20px white,
+        -24px 24px #43a047,
+        -28px 28px white,
+        -32px 32px #f9a825,
+        -36px 36px white;
+    }
+}
+
+@keyframes h1Shadow2 {
+    0% {
+        text-shadow: 
+        -4px 4px #ef3550,
+        // -8px 8px #f48fb1,
+        // -12px 12px #7e57c2,
+        -16px 16px #2196f3,
+        // -20px 20px #26c6da,
+        // -24px 24px #43a047,
+        -28px 28px #eeff41,
+        // -32px 32px #f9a825,
+        // -36px 36px #ff5722;
+    }
+    33% {
+        text-shadow: 
+        //-4px 4px #ef3550,
+        -8px 8px #f48fb1,
+        // -12px 12px #7e57c2,
+        // -16px 16px #2196f3,
+        -20px 20px #26c6da,
+        // -24px 24px #43a047,
+        // -28px 28px #eeff41,
+        -32px 32px #f9a825,
+        // -36px 36px #ff5722;
+    }
+    66% {
+        text-shadow: 
+        // -4px 4px #ef3550,
+        // -8px 8px #f48fb1,
+        -12px 12px #7e57c2,
+        // -16px 16px #2196f3,
+        // -20px 20px #26c6da,
+        -24px 24px #43a047,
+        // -28px 28px #eeff41,
+        // -32px 32px #f9a825,
+        -36px 36px #ff5722;
+    }
+}
+
+@keyframes h1Shadow {
+    10% {
+        text-shadow: 
+        -4px 4px #ef3550,
+        // -8px 8px #f48fb1,
+        // -12px 12px #7e57c2,
+        // -16px 16px #2196f3,
+        -20px 20px #26c6da,
+        // -24px 24px #43a047,
+        // -28px 28px #eeff41,
+        // -32px 32px #f9a825,
+        // -36px 36px #ff5722;
+    }
+    20% {
+        text-shadow: 
+        //-4px 4px #ef3550,
+        -8px 8px #f48fb1,
+        // -12px 12px #7e57c2,
+        -16px 16px #2196f3,
+        // -20px 20px #26c6da,
+        // -24px 24px #43a047,
+        // -28px 28px #eeff41,
+        // -32px 32px #f9a825,
+        // -36px 36px #ff5722;
+    }
+    30% {
+        text-shadow: 
+        //-4px 4px #ef3550,
+        // -8px 8px #f48fb1,
+        -12px 12px #7e57c2,
+        // -16px 16px #2196f3,
+        // -20px 20px #26c6da,
+        // -24px 24px #43a047,
+        -28px 28px #eeff41,
+        // -32px 32px #f9a825,
+        // -36px 36px #ff5722;
+    }
+    40% {
+        text-shadow: 
+        //-4px 4px #ef3550,
+        // -8px 8px #f48fb1,
+        // -12px 12px #7e57c2,
+        -16px 16px #2196f3,
+        // -20px 20px #26c6da,
+        // -24px 24px #43a047,
+        // -28px 28px #eeff41,
+        // -32px 32px #f9a825,
+        -36px 36px #ff5722;
+    }
+    50% {
+        text-shadow: 
+        //-4px 4px #ef3550,
+        // -8px 8px #f48fb1,
+        -12px 12px #7e57c2,
+        // -16px 16px #2196f3,
+        -20px 20px #26c6da,
+        // -24px 24px #43a047,
+        // -28px 28px #eeff41,
+        -32px 32px #f9a825,
+        // -36px 36px #ff5722;
+    }
+    60% {
+        text-shadow: 
+        -4px 4px #ef3550,
+        // -8px 8px #f48fb1,
+        // -12px 12px #7e57c2,
+        // -16px 16px #2196f3,
+        // -20px 20px #26c6da,
+        // -24px 24px #43a047,
+        -28px 28px #eeff41,
+        // -32px 32px #f9a825,
+        // -36px 36px #ff5722;
+    }
+    70% {
+        text-shadow: 
+        //-4px 4px #ef3550,
+        -8px 8px #f48fb1,
+        // -12px 12px #7e57c2,
+        // -16px 16px #2196f3,
+        // -20px 20px #26c6da,
+        // -24px 24px #43a047,
+        // -28px 28px #eeff41,
+        -32px 32px #f9a825,
+        // -36px 36px #ff5722;
+    }
+    80% {
+        text-shadow: 
+        //-4px 4px #ef3550,
+        // -8px 8px #f48fb1,
+        // -12px 12px #7e57c2,
+        -16px 16px #2196f3,
+        // -20px 20px #26c6da,
+        // -24px 24px #43a047,
+        // -28px 28px #eeff41,
+        // -32px 32px #f9a825,
+        -36px 36px #ff5722;
+    }
+    90% {
+        text-shadow: 
+        -4px 4px #ef3550,
+        // -8px 8px #f48fb1,
+        // -12px 12px #7e57c2,
+        // -16px 16px #2196f3,
+        // -20px 20px #26c6da,
+        -24px 24px #43a047,
+        // -28px 28px #eeff41,
+        // -32px 32px #f9a825,
+        // -36px 36px #ff5722;
+    }
+    100% {
+        text-shadow: 
+        //-4px 4px #ef3550,
+        -8px 8px #f48fb1,
+        // -12px 12px #7e57c2,
+        // -16px 16px #2196f3,
+        // -20px 20px #26c6da,
+        // -24px 24px #43a047,
+        -28px 28px #eeff41,
+        // -32px 32px #f9a825,
+        // -36px 36px #ff5722;
+    }
+}
