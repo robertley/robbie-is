@@ -1,0 +1,10 @@
+<div class="row pb-4">
+    <div class="col-12 bottom-nav-container d-flex justify-content-between">
+        <span>
+            <span class="left-nav" *ngIf="leftNav" [routerLink]="leftNav?.url"><-- {{leftNav?.text}}</span>
+        </span>
+        <span>
+            <span class="right-nav" *ngIf="rightNav" [routerLink]="rightNav?.url">{{rightNav?.text}} --></span>
+        </span>
+    </div>
+</div>

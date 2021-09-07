@@ -1,19 +1,29 @@
-<div class="row">
-    <div class="col-12">
-        <nav>cedar point</nav>
-        <nav>chicago</nav>
-        <nav>minneapolis</nav>
-        <nav>bad lands</nav>
-        <nav>hot springs</nav>
-        <nav>boise</nav>
-        <nav>portland</nav>
-        <nav>eugene</nav>
-        <nav>redwoods</nav>
-        <nav>oakland</nav>
-        <nav>las vegas</nav>
-        <nav>pheonix</nav>
-        <nav>moab</nav>
-        <nav>denver</nav>
-        <nav>st. lois</nav>
+<div id="roadTripContainer" class="d-flex flex-column justify-content-between">
+    <div class="row">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12">
+                    <nav routerLink="./tile" routerLinkActive="active-link">tile view</nav>
+                    <nav routerLink="./cedar-point" routerLinkActive="active-link">cedar point</nav>
+                    <nav routerLink="./chicago" routerLinkActive="active-link">chicago</nav>
+                    <nav class="disabled"><span>minneapolis</span></nav>
+                    <nav class="disabled">bad lands</nav>
+                    <nav class="disabled">hot springs</nav>
+                    <nav class="disabled">boise</nav>
+                    <nav class="disabled">portland</nav>
+                    <nav class="disabled">eugene</nav>
+                    <nav class="disabled">redwoods</nav>
+                    <nav class="disabled">oakland</nav>
+                    <nav class="disabled">las vegas</nav>
+                    <nav class="disabled">pheonix</nav>
+                    <nav class="disabled">moab</nav>
+                    <nav class="disabled">denver</nav>
+                    <nav class="disabled">st. lois</nav>
+                </div>
+            </div>
+
+            
+            <router-outlet></router-outlet>
+        </div>
     </div>
 </div>

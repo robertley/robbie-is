@@ -7,3 +7,52 @@ nav:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.active-link {
+    background-color: black;
+    color: white;
+}
+
+.disabled {
+    color: gray;
+}
+
+.disabled:hover {
+    cursor: auto;
+    text-decoration: none;
+}
+
+img {
+    width: -webkit-fill-available;
+    max-height: 650px;
+    width: auto;
+    max-width: -webkit-fill-available;
+}
+
+.image-tile img {
+    width: -webkit-fill-available;
+}
+
+.caption {
+    color: dimgray;
+    font-style: italic;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#roadTripContainer {
+    min-height: calc(100vh - 8em);
+}
+
+.bottom-nav {
+}
+
+.bottom-nav-container {
+    font-weight: bold;
+    font-style: italic;
+}

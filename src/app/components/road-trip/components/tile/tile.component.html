@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="image-tile col-6 col-md-4 col-lg-3 col-xl-2 pb-4" *ngFor="let image of visibleImageObjects" (click)="openModal(image)">
+        <img [src]="image.src" [alt]="image.caption">
+    </div>
+</div>
+
+<app-bottom-navigation [config]="bottomNavConfig"></app-bottom-navigation>
