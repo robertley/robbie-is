@@ -1,7 +1,7 @@
 export default [
     {
         "src": "https://lh3.googleusercontent.com/hs1BkGzo_IIBJSL_MZTCq2gtxQTUFvKO7t80kja_8w1ORlsuQPPhB8W1GUYNNJEJGAPQleEqZC24pxhIPHZ3jWwFsVrL8QLya8_DAzEvj98favZeip4MgILefIn7FdcgW21Ux_Of=w2400",
-        "caption": "going to the park"
+        "caption": null
     },
     {
         "src": "https://lh3.googleusercontent.com/ji_izL5gFzcC_KcMf4Ui_zp44KybYqTNyFSJKmenm_VtGaclEp67SeZ0cQo8CiibKmqHLKAz2PP64kOEf3M_TO3mYIQX7RbM4S-Mj1vvA7ctuQpkSOhL1niVBnXdCcFohr8EPC0y=w2400",

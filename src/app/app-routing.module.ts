@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'on-a-road-trip', component: RoadTripComponent,
     children: [
+      { path: '', pathMatch: 'full', redirectTo: 'cedar-point' },
       {
         path: 'tile',
         component: TileComponent
