@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-12">
-        <h1 id="chicagoHeader">Chicago</h1>
+        <h1 id="minneapolisHeader">Minneapolis</h1>
     </div>
 
     <div class="col-12 text-center" *ngFor="let image of visibleImageObjects">
@@ -10,3 +10,7 @@
 </div>
 
 <app-bottom-navigation [config]="bottomNavConfig"></app-bottom-navigation>
+
+<div class="text-center py-3" *ngIf="pageNumber == totalPages">
+    more coming soon...
+</div>

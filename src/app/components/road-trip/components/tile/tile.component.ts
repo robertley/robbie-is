@@ -5,6 +5,7 @@ import { BottomNavigationConfig } from 'src/app/components/common/bottom-navigat
 
 import * as cedarPointJson from '../../image-json/cedar-point';
 import * as chicagoJson from '../../image-json/chicago';
+import * as minneapolisJson from '../../image-json/minneapolis';
 import { PhotoDialogComponent } from '../photo-dialog/photo-dialog.component';
 
 @Component({
@@ -42,7 +43,8 @@ export class TileComponent implements OnInit {
 
     this.imageObjects = [
       ...cedarPointJson.default,
-      ...chicagoJson.default
+      ...chicagoJson.default,
+      ...minneapolisJson.default
     ];
 
     this.setVisibleImages();
