@@ -14,6 +14,9 @@ export class MinneapolisComponent extends LocationPage implements OnInit {
   thisUrl = "minneapolis";
   prevTitle = "chicago";
   prevUrl = "chicago";
+  nextTitle = "badlands";
+  nextUrl = "badlands";
+
 
   constructor(router: Router, route: ActivatedRoute) {
     super(router, route);

@@ -12,7 +12,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
 import { PhotoDialogComponent } from './components/road-trip/components/photo-dialog/photo-dialog.component';
 import { BottomNavigationComponent } from './components/common/bottom-navigation/bottom-navigation.component';
-import { MinneapolisComponent } from './components/road-trip/components/minneapolis/minneapolis.component'
+import { MinneapolisComponent } from './components/road-trip/components/minneapolis/minneapolis.component';
+import { BadlandsComponent } from './components/road-trip/components/badlands/badlands.component';
+import { IdahoComponent } from './components/road-trip/components/idaho/idaho.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { MinneapolisComponent } from './components/road-trip/components/minneapo
     ChicagoComponent,
     PhotoDialogComponent,
     BottomNavigationComponent,
-    MinneapolisComponent
+    MinneapolisComponent,
+    BadlandsComponent,
+    IdahoComponent
   ],
   imports: [
     BrowserModule,

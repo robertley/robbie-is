@@ -1,14 +1,18 @@
 <div class="row">
     <div class="col-12">
-        <h1 id="cedarPointHeader">Cedar Point</h1>
+        <h1 id="idahoHeader">Idaho</h1>
     </div>
 
     <app-bottom-navigation [config]="bottomNavConfig"></app-bottom-navigation>
 
-    <div class="col-12 text-center" *ngFor="let image of imageObjects">
+    <div class="col-12 text-center" *ngFor="let image of visibleImageObjects">
         <img [src]="image.src" [alt]="image.caption ? image.caption : image.src">
         <div class="caption">{{image.caption}}</div>
     </div>
 </div>
 
 <app-bottom-navigation [config]="bottomNavConfig"></app-bottom-navigation>
+
+<div class="text-center py-3" *ngIf="pageNumber == totalPages">
+    more coming soon...
+</div>

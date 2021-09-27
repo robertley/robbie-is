@@ -13,7 +13,7 @@ export default [
     },
     {
         "src": "https://lh3.googleusercontent.com/DgMjcJVZvKMI0OE58atMIk3rOmk7uZOKPxDxt4cxqReOnByqxT7qbkCrMc3Jtn1dVMI6aSPVPp5Xo89tiSiFtr9xH0hBLFxGKtooDsVrwHQk67F2dQe1_yiGVwXps7SgxKAsU_78=w2400",
-        "caption": "Freya"
+        "caption": "Freyja"
     },
     {
         "src": "https://lh3.googleusercontent.com/_l5AKsKVuqJ9ZKtA_tQUYPCYXqJ9nd9250-vtAFSbNSOrCuwPdH06IBOPHdmhbKepeyCocF2t6yxd6opoalvaWifADe4kXxtAaGiB5AjsGupNeCyj4e9IpgrSGVuZ9gHu-f_9JgC=w2400",
@@ -49,7 +49,7 @@ export default [
     },
     {
         "src": "https://lh3.googleusercontent.com/9hvy0L-Kd01xZv3POW3xY1tIMNKhtcfqZyGJZTDf2E7bfT6TsDFTnMvyKp3aoOU9yZiPVMBb4QPWA0k77p73RUsIm-0GhapDiONqbCZ4o94tUvVAXus4ZFQd_nTU1UcrTQabpSL3=w2400",
-        "caption": "Eleanore spying on us"
+        "caption": "E spying on us"
     },
     {
         "src": "https://lh3.googleusercontent.com/tl8pSJ3j5rcLeiinsUy_4K6bK-WKRSjCR3nTNWVQQ9FA5hjVo3yFzkqcpVEjJ-26lHbuY7dbE6yh7gphd6xrCzk7JKeukRa8Xwgn5X9oT3oE8t56JSK_ZXdLpKL4H65SXdNATaBD=w2400",
@@ -86,5 +86,21 @@ export default [
     {
         "src": "https://lh3.googleusercontent.com/99fXMLXOTBW21Xt_qgxvW-ntEyTSr7yhw3zXfUJIBP5oGh7ZM3Pu9u7W3evZft-0J4G8EiWAKA7DHhC9Zm2BrXFM5hERF9RYYfwoX1h8ebbDEhjzUu73vWWmJ5lLle_GaETgEG_3=w2400",
         "caption": "Coral's first Taco Bell...lol"
+    },
+    {
+        src: "https://lh3.googleusercontent.com/rttGqVK30nWhA23co391YOrGOquVIKcIs_aJvk-EZivPcZMUU7_fA7fkXVulrWsDd_b2n5UviEaWj0KX-AhCfmHOq1L0xkWMQdZzDLTdtaGNjgR1tl6S3k3lNzc__0hLpB5zD2d5=w2400",
+        caption: null
+    },
+    {
+        src: "https://lh3.googleusercontent.com/WRt4cOX8jFnFGT3nBEad-_Of0GS52tv_o4_bSYZGqrC4xZt2gOGHMeqWieIcUTdXsz70X6VNxAp8kPpQTJp3dwREfje7qqpO8aYmQhP8FrK8o7xtdW1u4nUqNRu59zi1Ay-iKWiZ=w2400",
+        caption: null
+    },
+    {
+        src: "https://lh3.googleusercontent.com/R8zuKLQAYdpjEIM2CKFysq3Fo4Mykpeod5HB4l7HWrBQu_-Bsa_ZWMJMGAKdIKcVBM6c-CTY1n0vGBi1NzbeY1ca7isQEAoMv9i7O2qDBVwor_W5j6ljBpWDDiM-ffjE1DQUvE7S=w2400",
+        caption: null
+    },
+    {
+        src: "https://lh3.googleusercontent.com/YDuOS7a2TFVGRzZOUe1y21eXwQt0vegMnWpdDMibKf-9ZEtA0khiAlkplX0rXP_WsRX81NUFGuOpzVCRNSqHcqQxR7EVh_s-H6O-F9IyrWbBHnUMkS4joLo9PhyZaTxSe9XE2KTs=w2400",
+        caption: "We didn't realize the restaurant was family style, and ordered way too much food. Coral's expression perfectly summarizes how we felt."
     },
 ]
