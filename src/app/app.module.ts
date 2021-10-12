@@ -14,7 +14,8 @@ import { PhotoDialogComponent } from './components/road-trip/components/photo-di
 import { BottomNavigationComponent } from './components/common/bottom-navigation/bottom-navigation.component';
 import { MinneapolisComponent } from './components/road-trip/components/minneapolis/minneapolis.component';
 import { BadlandsComponent } from './components/road-trip/components/badlands/badlands.component';
-import { IdahoComponent } from './components/road-trip/components/idaho/idaho.component'
+import { IdahoComponent } from './components/road-trip/components/idaho/idaho.component';
+import { OregonComponent } from './components/road-trip/components/oregon/oregon.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { IdahoComponent } from './components/road-trip/components/idaho/idaho.co
     BottomNavigationComponent,
     MinneapolisComponent,
     BadlandsComponent,
-    IdahoComponent
+    IdahoComponent,
+    OregonComponent
   ],
   imports: [
     BrowserModule,

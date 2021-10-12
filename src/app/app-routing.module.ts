@@ -6,6 +6,7 @@ import { CedarPointComponent } from './components/road-trip/components/cedar-poi
 import { ChicagoComponent } from './components/road-trip/components/chicago/chicago.component';
 import { IdahoComponent } from './components/road-trip/components/idaho/idaho.component';
 import { MinneapolisComponent } from './components/road-trip/components/minneapolis/minneapolis.component';
+import { OregonComponent } from './components/road-trip/components/oregon/oregon.component';
 import { TileComponent } from './components/road-trip/components/tile/tile.component';
 import { RoadTripComponent } from './components/road-trip/road-trip.component';
 
@@ -13,7 +14,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'on-a-road-trip', component: RoadTripComponent,
     children: [
-      { path: '', pathMatch: 'full', redirectTo: 'idaho' },
+      { path: '', pathMatch: 'full', redirectTo: 'oregon' },
       {
         path: 'tile',
         component: TileComponent
@@ -61,6 +62,14 @@ const routes: Routes = [
       {
         path: 'idaho/:page',
         component: IdahoComponent
+      },
+      {
+        path: 'oregon',
+        component: OregonComponent
+      },
+      {
+        path: 'oregon/:page',
+        component: OregonComponent
       }
     ]
   }

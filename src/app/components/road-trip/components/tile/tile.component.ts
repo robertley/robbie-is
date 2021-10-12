@@ -6,8 +6,9 @@ import { BottomNavigationConfig } from 'src/app/components/common/bottom-navigat
 import * as cedarPointJson from '../../image-json/cedar-point';
 import * as chicagoJson from '../../image-json/chicago';
 import * as minneapolisJson from '../../image-json/minneapolis';
-import badlands, * as badlandsJson from '../../image-json/badlands';
+import * as badlandsJson from '../../image-json/badlands';
 import * as idahoJson from '../../image-json/idaho';
+import * as oregonJson from '../../image-json/orgeon';
 import { PhotoDialogComponent } from '../photo-dialog/photo-dialog.component';
 
 @Component({
@@ -48,7 +49,8 @@ export class TileComponent implements OnInit {
       ...chicagoJson.default,
       ...minneapolisJson.default,
       ...badlandsJson.default,
-      ...idahoJson.default
+      ...idahoJson.default,
+      ...oregonJson.default
     ];
 
     this.setVisibleImages();
