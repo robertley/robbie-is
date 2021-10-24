@@ -9,6 +9,7 @@ import * as minneapolisJson from '../../image-json/minneapolis';
 import * as badlandsJson from '../../image-json/badlands';
 import * as idahoJson from '../../image-json/idaho';
 import * as oregonJson from '../../image-json/orgeon';
+import * as redwoodsJson from '../../image-json/redwoods';
 import { PhotoDialogComponent } from '../photo-dialog/photo-dialog.component';
 
 @Component({
@@ -50,7 +51,8 @@ export class TileComponent implements OnInit {
       ...minneapolisJson.default,
       ...badlandsJson.default,
       ...idahoJson.default,
-      ...oregonJson.default
+      ...oregonJson.default,
+      ...redwoodsJson.default
     ];
 
     this.setVisibleImages();

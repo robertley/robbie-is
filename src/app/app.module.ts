@@ -15,7 +15,8 @@ import { BottomNavigationComponent } from './components/common/bottom-navigation
 import { MinneapolisComponent } from './components/road-trip/components/minneapolis/minneapolis.component';
 import { BadlandsComponent } from './components/road-trip/components/badlands/badlands.component';
 import { IdahoComponent } from './components/road-trip/components/idaho/idaho.component';
-import { OregonComponent } from './components/road-trip/components/oregon/oregon.component'
+import { OregonComponent } from './components/road-trip/components/oregon/oregon.component';
+import { RedwoodsComponent } from './components/road-trip/components/redwoods/redwoods.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { OregonComponent } from './components/road-trip/components/oregon/oregon
     MinneapolisComponent,
     BadlandsComponent,
     IdahoComponent,
-    OregonComponent
+    OregonComponent,
+    RedwoodsComponent
   ],
   imports: [
     BrowserModule,
