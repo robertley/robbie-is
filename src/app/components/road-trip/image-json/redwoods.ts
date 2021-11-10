@@ -81,7 +81,7 @@ export default [
     },
     {
         src: "https://lh3.googleusercontent.com/koLlIeuTF_5c_jEVVSq8oLrjRZm_zvTy0p6I4h-Z9ofACqVBgQMctfhvtVePMIQz6h5cW2uEsUPbjdDgbiyoT_aNTCdwDQfoNLnh-nZYhguS3dR5F0HK6O8xoH8_2Gnl-1mt-IG8=w2400",
-        caption: "On the Coastal Highway on our way to aSan Pablo CA"
+        caption: "On the Coastal Highway on our way to San Pablo CA"
     },
     {
         src: "https://lh3.googleusercontent.com/W2IhbX1wG_ypK334mKAyAUjJNjepbvgTA_acTSuPXuLPE4DXidpKpKCruZDuvTqOc3CZ_75sfFaw8nsSfHGKt5K16Ov5Ayrto26owQ7bLBE4bGLs_LkcCu8asiuTh-oOF4oB7Ck9=w2400",

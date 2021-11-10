@@ -13,8 +13,8 @@ export class RedwoodsComponent extends LocationPage implements OnInit {
   thisUrl = "redwoods";
   prevTitle = "oregon";
   prevUrl = "oregon";
-  // nextTitle = "badlands";
-  // nextUrl = "badlands";
+  nextTitle = "bay area";
+  nextUrl = "bay-area";
 
 
   constructor(router: Router, route: ActivatedRoute) {

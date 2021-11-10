@@ -16,7 +16,10 @@ import { MinneapolisComponent } from './components/road-trip/components/minneapo
 import { BadlandsComponent } from './components/road-trip/components/badlands/badlands.component';
 import { IdahoComponent } from './components/road-trip/components/idaho/idaho.component';
 import { OregonComponent } from './components/road-trip/components/oregon/oregon.component';
-import { RedwoodsComponent } from './components/road-trip/components/redwoods/redwoods.component'
+import { RedwoodsComponent } from './components/road-trip/components/redwoods/redwoods.component';
+import { BayAreaComponent } from './components/road-trip/components/bay-area/bay-area.component';
+import { TwentyninePalmsComponent } from './components/road-trip/components/twentynine-palms/twentynine-palms.component';
+import { PuertoVallartaComponent } from './components/road-trip/components/puerto-vallarta/puerto-vallarta.component'
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { RedwoodsComponent } from './components/road-trip/components/redwoods/re
     BadlandsComponent,
     IdahoComponent,
     OregonComponent,
-    RedwoodsComponent
+    RedwoodsComponent,
+    BayAreaComponent,
+    TwentyninePalmsComponent,
+    PuertoVallartaComponent
   ],
   imports: [
     BrowserModule,

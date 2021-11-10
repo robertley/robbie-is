@@ -10,6 +10,9 @@ import * as badlandsJson from '../../image-json/badlands';
 import * as idahoJson from '../../image-json/idaho';
 import * as oregonJson from '../../image-json/orgeon';
 import * as redwoodsJson from '../../image-json/redwoods';
+import * as bayAreaJson from '../../image-json/bay-area';
+import * as twentyninePalmsJson from '../../image-json/twentynine-palms';
+import * as puertoVallartaJson from '../../image-json/puerto-vallarta';
 import { PhotoDialogComponent } from '../photo-dialog/photo-dialog.component';
 
 @Component({
@@ -52,7 +55,10 @@ export class TileComponent implements OnInit {
       ...badlandsJson.default,
       ...idahoJson.default,
       ...oregonJson.default,
-      ...redwoodsJson.default
+      ...redwoodsJson.default,
+      ...bayAreaJson.default,
+      ...twentyninePalmsJson.default,
+      ...puertoVallartaJson.default
     ];
 
     this.setVisibleImages();
