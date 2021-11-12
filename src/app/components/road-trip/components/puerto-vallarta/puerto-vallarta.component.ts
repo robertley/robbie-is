@@ -13,8 +13,8 @@ export class PuertoVallartaComponent extends LocationPage implements OnInit {
   thisUrl = "puerto-vallarta";
   prevTitle = "twentynine palms";
   prevUrl = "29-palms";
-  // nextTitle = "puerto vallarta";
-  // nextUrl = "puerto-vallarta";
+  nextTitle = "arizona";
+  nextUrl = "arizona";
 
 
   constructor(router: Router, route: ActivatedRoute) {

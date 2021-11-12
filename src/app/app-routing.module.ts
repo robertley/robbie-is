@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { ArizonaComponent } from './components/road-trip/components/arizona/arizona.component';
 import { BadlandsComponent } from './components/road-trip/components/badlands/badlands.component';
 import { BayAreaComponent } from './components/road-trip/components/bay-area/bay-area.component';
 import { CedarPointComponent } from './components/road-trip/components/cedar-point/cedar-point.component';
@@ -18,7 +19,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'on-a-road-trip', component: RoadTripComponent,
     children: [
-      { path: '', pathMatch: 'full', redirectTo: 'puerto-vallarta' },
+      { path: '', pathMatch: 'full', redirectTo: 'arizona' },
       {
         path: 'tile',
         component: TileComponent
@@ -106,6 +107,14 @@ const routes: Routes = [
       {
         path: 'puerto-vallarta/:page',
         component: PuertoVallartaComponent
+      },
+      {
+        path: 'arizona',
+        component: ArizonaComponent
+      },
+      {
+        path: 'arizona/:page',
+        component: ArizonaComponent
       }
     ]
   }
