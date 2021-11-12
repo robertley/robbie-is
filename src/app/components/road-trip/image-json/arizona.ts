@@ -133,7 +133,7 @@ export default [
     },
     {
         src: "https://lh3.googleusercontent.com/pw/AM-JKLW_HhHQTmyBmEXN9vr0fH_HtNd14oRZ2rJkDIIVyUo6RJjLHSTtdsh7V26ZSdeEHfTJM8kxmGXi5ha8P0aDlOij68xFGV0CgZJC63tUy2w3uxZX46anptzC21_SUThYOdgHpWlgio_ntJaIEaD6wxM=w703-h937-no?authuser=0",
-        caption: "Coral bought skiis for Colorado"
+        caption: "Coral bought skis for Colorado"
     },
     {
         src: "https://lh3.googleusercontent.com/pw/AM-JKLV5MiebeGKFA8P67XnSCGudbZ-SqehOpgUlOQhBXY_cUq19-Yk60QdgIxeHCIztQy4_3cz7wteCfy9pCsvAXQZX5WGxnEu8bdh84RLW0wnGWvqmmrVjr_9lJGOeqBDEeQz5eFS-yl0XdB4PaG2DGjE=w1250-h937-no?authuser=0",
@@ -173,7 +173,7 @@ export default [
     },
     {
         src: "https://lh3.googleusercontent.com/pw/AM-JKLV1ngLv_09nMpDGMoVOtM3Y7AE4nwyyU_qNwqClTprylAh0ggTSQX8x-tWILlUie2gFIlx9oYT58UbIc684UDm9RDF-fwo9Fic9g45lpS2xK0eIt2kUrv8MyXFTwKEGPfJiNvfjjHjilmD8ziCJyxo=w1174-h880-no?authuser=0",
-        caption: "Grand Canyon Nation Park"
+        caption: "Grand Canyon National Park"
     },
     {
         src: "https://lh3.googleusercontent.com/pw/AM-JKLUngaFi1s2emzsPXMj1Zva58kKrklg1y2coFjmBW2ynLRKvmms0LXJ92UshAC5xWRr_R7j-T6Ik5odDL_zsznQRcq-CGCs4T-tKzkqGa5NbZZlzgcFKmmPdadn2zK4la9b9n-LVjppSR2j8e1gmLJA=w660-h880-no?authuser=0",
