@@ -20,7 +20,8 @@ import { RedwoodsComponent } from './components/road-trip/components/redwoods/re
 import { BayAreaComponent } from './components/road-trip/components/bay-area/bay-area.component';
 import { TwentyninePalmsComponent } from './components/road-trip/components/twentynine-palms/twentynine-palms.component';
 import { PuertoVallartaComponent } from './components/road-trip/components/puerto-vallarta/puerto-vallarta.component';
-import { ArizonaComponent } from './components/road-trip/components/arizona/arizona.component'
+import { ArizonaComponent } from './components/road-trip/components/arizona/arizona.component';
+import { UtahComponent } from './components/road-trip/components/utah/utah.component'
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ArizonaComponent } from './components/road-trip/components/arizona/ariz
     BayAreaComponent,
     TwentyninePalmsComponent,
     PuertoVallartaComponent,
-    ArizonaComponent
+    ArizonaComponent,
+    UtahComponent
   ],
   imports: [
     BrowserModule,

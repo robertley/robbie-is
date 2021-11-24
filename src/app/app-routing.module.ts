@@ -13,13 +13,14 @@ import { PuertoVallartaComponent } from './components/road-trip/components/puert
 import { RedwoodsComponent } from './components/road-trip/components/redwoods/redwoods.component';
 import { TileComponent } from './components/road-trip/components/tile/tile.component';
 import { TwentyninePalmsComponent } from './components/road-trip/components/twentynine-palms/twentynine-palms.component';
+import { UtahComponent } from './components/road-trip/components/utah/utah.component';
 import { RoadTripComponent } from './components/road-trip/road-trip.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'on-a-road-trip', component: RoadTripComponent,
     children: [
-      { path: '', pathMatch: 'full', redirectTo: 'arizona' },
+      { path: '', pathMatch: 'full', redirectTo: 'utah' },
       {
         path: 'tile',
         component: TileComponent
@@ -115,6 +116,14 @@ const routes: Routes = [
       {
         path: 'arizona/:page',
         component: ArizonaComponent
+      },
+      {
+        path: 'utah',
+        component: UtahComponent
+      },
+      {
+        path: 'utah/:page',
+        component: UtahComponent
       }
     ]
   }
