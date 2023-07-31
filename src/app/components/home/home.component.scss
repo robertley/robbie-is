@@ -11,7 +11,7 @@ h2 {
 
 
 @mixin animationDelay {
-    @for $i from 1 through 14 {
+    @for $i from 1 through 18 {
       &:nth-child(#{$i}) {
         animation-delay: #{$i * .05}s;
       }
